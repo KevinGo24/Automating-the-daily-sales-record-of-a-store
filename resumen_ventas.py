@@ -7,8 +7,9 @@ def resumen_ventas():
 
     while continuar == "si":
         nombre = input("Ingrese el nombre del producto: ")
-        cantidad = int(input("Ingrese la cantidad vendida: "))
         precio = float(input("Ingrese el precio del producto: "))
+        cantidad = int(input("Ingrese la cantidad vendida: "))
+        
 
         total_producto = cantidad * precio
         total_general += total_producto
