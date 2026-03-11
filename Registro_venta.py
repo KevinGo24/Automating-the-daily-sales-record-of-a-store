@@ -12,3 +12,5 @@ def registrar_ventas():
         # Aquí iría tu lógica para guardar o calcular
         subtotal = precio * cantidad
         print(f"Subtotal de esta venta: ${subtotal}")
+        
+        
