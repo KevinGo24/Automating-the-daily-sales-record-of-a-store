@@ -1,5 +1,5 @@
 
-from resumen_ventas import resumen_ventas
+from Ventas import resumen_ventas
 
 
 resumen_ventas()
