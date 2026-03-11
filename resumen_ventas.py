@@ -23,7 +23,7 @@ def resumen_ventas():
                 "total": total_producto
             }
 
-        continuar = input("¿Desea registrar otro producto? (si/no): ")
+        continuar = input("¿Desea registrar otro producto? (si/no): ").lower()
 
     print("\n--- RESUMEN DE VENTAS DEL DÍA ---")
 
@@ -36,4 +36,3 @@ def resumen_ventas():
     print("TOTAL GENERAL RECAUDADO:", total_general)
 
 
-resumen_ventas()
