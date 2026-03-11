@@ -6,9 +6,9 @@ def registrar_ventas():
         print(f"\n--- Registro del Producto #{i + 1} ---")
         # Pedimos los 3 datos necesarios
         nombre = input("Nombre del producto: ")
-        precio = float(input(f"Precio unitario de {nombre}: "))
+        precio = int(input(f"Precio unitario de {nombre}: "))
         cantidad = int(input("Cantidad de unidades vendidas: "))
         
         # Aquí iría tu lógica para guardar o calcular
         subtotal = precio * cantidad
-    print(f"Subtotal de esta venta: ${subtotal}")
+        print(f"Subtotal de esta venta: ${subtotal}")
