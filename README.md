@@ -2,7 +2,6 @@
 Flowchart
 ------------------------------------------------------------------------------------
 
-
 - Ask the user to enter the data requested by the sales system:
 - Product name
 - Product price
