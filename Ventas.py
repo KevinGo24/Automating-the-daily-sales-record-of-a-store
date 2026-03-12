@@ -32,7 +32,7 @@ def resumen_ventas():
 
         continuar = input("¿Desea registrar otro producto? (si/no): ").lower()
 
-    print("\n--- RESUMEN DE VENTAS DEL DÍA ---")
+    print("\n--- RESUMEN DE VENTAS DEL DÍA ----")
 
     for producto, datos in productos.items():
         print("Producto:", producto)
