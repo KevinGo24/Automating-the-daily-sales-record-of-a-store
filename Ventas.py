@@ -6,10 +6,17 @@ def resumen_ventas():
     global total_general, continuar
 
     while continuar == "si":
-        nombre = input("Ingrese el nombre del producto: ")
-        precio = float(input("Ingrese el precio del producto: "))
-        cantidad = int(input("Ingrese la cantidad vendida: "))
-        
+        print('---------  BIENVENIDO A NUESTRO SISTEMA DE VENTAS ------------')
+        nombre = input("1 - Ingrese el nombre del producto: ")
+        precio = float(input("2 - Ingrese el precio del producto: "))
+        if precio <=0 :
+            print('Ingrese un precio mayor a 0')
+            continue
+        cantidad = int(input("3 - Ingrese la cantidad vendida: "))
+        if cantidad < 0:
+            print('Ingrse una cantidad mayor a 0 ')
+            continue
+
 
         total_producto = cantidad * precio
         total_general += total_producto
