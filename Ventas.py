@@ -4,10 +4,10 @@ continuar = "si"
 
 def resumen_ventas():
     global total_general, continuar
-
     while continuar == "si":
         print('---------  BIENVENIDO A NUESTRO SISTEMA DE VENTAS ------------')
         nombre = input("1 - Ingrese el nombre del producto: ")
+        
         precio = float(input("2 - Ingrese el precio del producto: "))
         if precio <=0 :
             print('Ingrese un precio mayor a 0')
