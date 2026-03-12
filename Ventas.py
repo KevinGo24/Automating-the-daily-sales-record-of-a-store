@@ -53,5 +53,3 @@ def resumen_ventas():
 
 #   - mostrar resumen de toda la compra echa
 #   - fin del pŕograma 
-
-
