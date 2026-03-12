@@ -7,7 +7,7 @@ def resumen_ventas():
     while continuar == "si":
         print('---------  BIENVENIDO A NUESTRO SISTEMA DE VENTAS ------------')
         nombre = input("1 - Ingrese el nombre del producto: ")
-        
+
         precio = float(input("2 - Ingrese el precio del producto: "))
         if precio <=0 :
             print('Ingrese un precio mayor a 0')
@@ -41,5 +41,17 @@ def resumen_ventas():
         print()
 
     print("TOTAL GENERAL RECAUDADO:", total_general)
+
+# - Pedir al usuario que digite los datos que le pide el sistema de ventas 
+# - nombre de producto
+# - precio de producdto
+# - cantida del producto
+
+#   - hacer validacion de que precio sea mayor a 0 y pedirle que al usuario vuleva a ingresar un valor valido
+#   - hacer validacion de que cantidad sea mayor a 0 y pedirle que al usuario vuleva a ingresar un valor valido
+#   - si el usuario quiere volver a pedir seguir con la compra y si el usuario dice que no, no seguir con la compra
+
+#   - mostrar resumen de toda la compra echa
+#   - fin del pŕograma 
 
 
