@@ -1,6 +1,12 @@
 ------------------------------------------------------------------------------------
 #  Flowchart
 ------------------------------------------------------------------------------------
+## descriptions
+------------------------------------------------------------------------------------
+** A sales system designed for the user to enter products, price, quantity, and then display a sales summary at the end.
+
+------------------------------------------------------------------------------------
+## how it works
 
 1 - Ask the user to enter the data requested by the sales system:
 - Product name
@@ -16,4 +22,7 @@
 7 - Display a summary of the entire purchase.
 
 8 - End of program
+
+------------------------------------------------------------------------------------
 <img width="830" height="810" alt="Captura desde 2026-03-11 15-00-42" src="https://github.com/user-attachments/assets/89039e8d-9970-46c5-816c-b715bcd42cc0" />
+------------------------------------------------------------------------------------
