@@ -13,7 +13,7 @@ def resumen_ventas():
             print('Ingrese un precio mayor a 0')
             continue
         cantidad = int(input("3 - Ingrese la cantidad vendida: "))
-        if cantidad < 0:
+        if cantidad <= 0:
             print('Ingrse una cantidad mayor a 0 ')
             continue
 
@@ -22,9 +22,11 @@ def resumen_ventas():
         total_general += total_producto
 
         if nombre in productos:
+            # actualizar producto
             productos[nombre]["cantidad"] += cantidad
             productos[nombre]["total"] += total_producto
         else:
+            # crear nuevo producto
             productos[nombre] = {
                 "cantidad": cantidad,
                 "total": total_producto 
